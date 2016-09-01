@@ -1,0 +1,34 @@
+{
+  "key": "hiptranslate",
+  "name": "Hipchat Translator",
+  "description": "Translate messages between different human languages",
+  "vendor": {
+    "name": "Parambir Singh",
+    "url": "https://github.com/parambirs"
+  },
+  "links": {
+    "self": "{{localBaseUrl}}/atlassian-connect.json",
+    "homepage": "{{localBaseUrl}}"
+  },
+  "capabilities": {
+    "hipchatApiConsumer": {
+      "scopes": [
+        "send_notification",
+        "view_room"
+      ]
+    },
+    "installable": {
+      "callbackUrl": "{{localBaseUrl}}/installable"
+    },
+    "configurable": {
+      "url": "{{localBaseUrl}}/config"
+    },
+    "webhook": {
+      "url": "{{localBaseUrl}}/webhook",
+      "pattern": "^/translate",
+      "event": "room_message",
+      "name": "translate",
+      "authentication": "jwt"
+    }
+  }
+}
