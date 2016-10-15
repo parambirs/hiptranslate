@@ -25,7 +25,7 @@ function getAccessToken() {
     form: {
       scope: 'http://api.microsofttranslator.com',
       client_secret: process.env.CLIENT_SECRET,
-      client_id: 'HipTranslate',
+      client_id: 'hipchat-translator',
       grant_type: 'client_credentials'
     }
   }).then(function(response) {
