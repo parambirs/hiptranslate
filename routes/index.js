@@ -24,7 +24,7 @@ function getAccessToken() {
     uri: 'https://datamarket.accesscontrol.windows.net/v2/OAuth2-13',
     form: {
       scope: 'http://api.microsofttranslator.com',
-      client_secret: '',
+      client_secret: process.env.CLIENT_SECRET,
       client_id: 'HipTranslate',
       grant_type: 'client_credentials'
     }
