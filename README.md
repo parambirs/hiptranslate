@@ -1,9 +1,7 @@
-# Atlassian Add-on using Express
+# HipTranslate
 
-Congratulations! You've successfully created a HipChat Connect Add-on using the Express web application framework.
+HipChat bot that translates text between different languages using Microsoft Translation API.
 
-## What's next?
+Here's a video (links to YouTube) showing the addon in action:
 
-* [Read the tutorial](https://developer.atlassian.com/hipchat/tutorials/getting-started-with-atlassian-connect-express-node-js).
-* [Read the HipChat Connect guides](https://developer.atlassian.com/hipchat/guide)
-* [View the HipChat API reference](https://www.hipchat.com/docs/apiv2)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/T2YoW68ZBvc/0.jpg)](https://www.youtube.com/watch?v=T2YoW68ZBvc)
